@@ -5,7 +5,7 @@ from InsurancePremiumPrediction.logger import logging
 from InsurancePremiumPrediction.Exception import InsuranceException
 import os,sys
 
-from InsurancePremiumPrediction.util import read_yaml_file
+from InsurancePremiumPrediction.util.util import read_yaml_file
 
 class Configuration:
     def __init__(self,
